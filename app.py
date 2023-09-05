@@ -6,11 +6,11 @@ app = Flask("Meu App")
 posts = [
     {
     "titulo": "Minha primiera postagem!",
-    "texto": "Teste."
+    "texto": "Texto do post 1."
     },
       {
     "titulo": "Segundo post.",
-    "texto": "Outro teste."
+    "texto": "Texto do post 2."
     }
 ]
 
