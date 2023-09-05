@@ -5,7 +5,7 @@ app = Flask("Meu App")
 # Mock de um banco de dados de postagens
 posts = [
     {
-    "titulo": "Minha primiera postagem!",
+    "titulo": "Minha primeira postagem!",
     "texto": "Texto do post 1."
     },
       {
