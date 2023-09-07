@@ -10,7 +10,8 @@
   
             <div class="metanav">
                 {% if not session.logado %}
-                    <a href="">login</a>
+                    <!-- url_for: função do Flask que identifica automaticamente a rota da função -->
+                    <a href="{{url_for ('login')}}">login</a> 
                 {% else %}
                     <a href="">logout</a>
                 {% endif %}
