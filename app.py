@@ -3,6 +3,7 @@ from posts import posts
 
 app = Flask(__name__) # nomeia o app com o nome do arquivo
 app.config['SECRET_KEY'] = 'pudim'
+app.config.from_object(__name__) # para que o python possa gerir o sqlite
 
 # Mock de um banco de dados de postagens
 # posts = [
