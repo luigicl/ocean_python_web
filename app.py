@@ -52,10 +52,10 @@ def inserir_entradas():
         flash("Post criado com sucesso!")
     return redirect(url_for('exibir_entradas'))
 
-@app.route('/posts/<int:id>')
-def exibir_entrada(id):
-    try:
-        entrada = posts[id - 1]
-        return render_template('exibir_entrada.html', entrada=entrada)
-    except Exception:
-        return abort(404)
+# @app.route('/posts/<int:id>')
+# def exibir_entrada(id):
+#     try:
+#         entrada = posts[id - 1]
+#         return render_template('exibir_entrada.html', entrada=entrada)
+#     except Exception:
+#         return abort(404)
